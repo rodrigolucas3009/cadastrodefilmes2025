@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    background-color: #00bfff;
+    color: white;
+    margin: 0;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px 20px 10px;
+}
+
+
+form#formulario {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    border-radius: 5px;
+    min-width: 450px;
+    min-height: 220px;
+}
+
+form section {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+
+#lado {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+#lado button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+}
+
+#adicionar {
+    background-color: #1e7e34;
+}
+
+#editar {
+    background-color: #fd7e14;
+}
+
+#salvar {
+    background-color: #17a2b8;
+}
+
+#cancelar {
+    background-color: #00ced1;
+}
+
+#excluir {
+    background-color: #dc3545;
+}
+
+footer {
+    text-align: center;
+    color: #00bfff;
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 10px 0 30px;
+    width: 100%;
+    max-width: calc(450px + 120px + 30px);
+    padding-left: 0;
+}
+
+#navegacao button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

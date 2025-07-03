@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 9</title>
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Cadastro de Filme</h1>
+    <div class="wrapper">
+    <div id="container">
+        <form id="formulario">
+            <section id="nomeF">
+                <label for="nome">Nome do Filme:</label>
+                <input type="text" id="nome" required>
+            </section>
+
+            <section id="anoF">
+                <label for="ano">Ano de Lançamento:</label>
+                <input type="number" id="ano" required>
+            </section>
+
+            <section id="generoF">
+                <label for="genero">Gênero:</label>
+                <input type="text" id="genero" required>
+            </section>
+
+            <section id="diretorF">
+                <label for="diretor">Diretor:</label>
+                <input type="text" id="diretor" required>
+            </section>
+
+        </form>
+        <section id="lado">
+            <button id="adicionar" onclick=adicionar()>Adicionar Novo</button>
+            <button id="editar" onclick=editar()>Editar</button>
+            <button id="salvar" onclick=salvar()>Salvar</button>
+            <button id="cancelar" onclick=cancelar()>Cancelar</button>
+            <button id="excluir" onclick=excluir()>Excluir</button>
+        </section>
+    </div>
+    <div id="navegacao">
+        <section id="baixo">
+            <button id="primeiro" onclick=primeiro()>|<</button>
+            <button id="anterior" onclick=anterior()><</button>
+            <button id="proximo" onclick=proximo()>></button>
+            <button id="ultimo" onclick=ultimo()>>|</button>
+        </section>
+    </div>
+    </div>
+    <footer>Catálogo de Filmes</footer>
+</body>
+<script src="cadastro.js"></script>
+
+</html>
