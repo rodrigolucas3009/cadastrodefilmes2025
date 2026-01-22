@@ -1,2 +1,0 @@
-# cadastrodefilmes2025
-cadastrodefilmes2025
